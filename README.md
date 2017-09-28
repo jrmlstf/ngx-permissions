@@ -276,7 +276,7 @@ It also have to return one of values to properly represent results:
 ### Multiple permissions
 
 To define multiple permissions  method `loadPermissions` can be used. The only 
-difference from `definePermission` is that it accepts `Array` of permission names instead of single one. 
+difference from `addPermission` is that it accepts `Array` of permission names instead of single one. 
 
 
 Often meet example of usage is set of permissions (e.g. received from server after user login) that you will iterate over to 
